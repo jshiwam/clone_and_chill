@@ -1,0 +1,42 @@
+.banner-header{
+    height:30rem;
+    object-fit:contain;
+    display: flex;
+    flex-direction:column;
+}
+
+.banner-title{
+    color:white;
+    margin: 8px 30px;
+    padding: 4px 8px;
+    margin-top:130px;
+}
+
+.banner-btns a{
+    text-decoration: none;
+    color: white;
+    margin: 8px 30px;
+    padding: 8px 16px;
+    font-weight: bolder;
+    background: rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+}
+
+.banner-btns a:hover{
+    background-color: rgba(255,255,255,0.3);
+    color:black;
+}
+
+.banner-description{
+    color:white;
+    margin: 8px 30px;
+    padding: 4px 8px;
+    max-width:32rem;
+    text-align:justify;
+    font-weight:bolder;
+}
+
+.banner-fade{
+    height:9rem;
+    background-image: linear-gradient( to bottom,transparent, rgba(37,37,37,0.61),#111);
+}

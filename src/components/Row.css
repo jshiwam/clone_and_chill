@@ -1,0 +1,41 @@
+
+.rows .row h2{
+    color: white;
+}
+
+
+.rows .row .container{
+    width:100%;
+    height:100%;
+    display: flex;
+    flex-wrap: nowrap;
+    scrollbar-width: none;
+    scrollbar-color: #666 #201c29;
+    overflow-x: auto;
+}
+
+ 
+.row-img{
+    margin: 2px 3px;
+    width: auto;
+    height: 7rem;
+    transition: transform 450ms;
+}
+
+.row-img:hover{
+    transform: scale(1.08);
+}
+
+@media only screen and (max-width:800px){
+ .row-img{
+     width:auto;
+     height: 5rem;
+ }   
+}
+
+@media only screen and (max-width:400px){
+    .row-img{
+        width:auto;
+        height: 3rem;
+    }
+}
